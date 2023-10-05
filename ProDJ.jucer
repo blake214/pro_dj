@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="PR71Tr" name="ProDJ" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              defines="JUCE_USE_MP3AUDIOFORMAT&#10;JUCE_MODAL_LOOPS_PERMITTED=1">
+  <MAINGROUP id="yCogB2" name="ProDJ">
+    <GROUP id="{C775D412-3994-7EE6-5693-462D327427BE}" name="Source">
+      <FILE id="xOVtNV" name="DeckGUIButtonBar.cpp" compile="1" resource="0"
+            file="Source/DeckGUIButtonBar.cpp"/>
+      <FILE id="kb3g6c" name="DeckGUIButtonBar.h" compile="0" resource="0"
+            file="Source/DeckGUIButtonBar.h"/>
+      <FILE id="iqM2jl" name="PlayListEntry.cpp" compile="1" resource="0"
+            file="Source/PlayListEntry.cpp"/>
+      <FILE id="lf7tz1" name="PlayListEntry.h" compile="0" resource="0" file="Source/PlayListEntry.h"/>
+      <FILE id="FEHJS9" name="WaveformDisplay.cpp" compile="1" resource="0"
+            file="Source/WaveformDisplay.cpp"/>
+      <FILE id="JyNyLf" name="WaveformDisplay.h" compile="0" resource="0"
+            file="Source/WaveformDisplay.h"/>
+      <FILE id="MLdR55" name="DeckSliders.cpp" compile="1" resource="0" file="Source/DeckSliders.cpp"/>
+      <FILE id="nAUdjy" name="DeckSliders.h" compile="0" resource="0" file="Source/DeckSliders.h"/>
+      <FILE id="SOtGKM" name="DJAudioPlayer.cpp" compile="1" resource="0"
+            file="Source/DJAudioPlayer.cpp"/>
+      <FILE id="I9d4DP" name="DJAudioPlayer.h" compile="0" resource="0" file="Source/DJAudioPlayer.h"/>
+      <FILE id="lSZQsy" name="DecksContainersBar.cpp" compile="1" resource="0"
+            file="Source/DecksContainersBar.cpp"/>
+      <FILE id="bm8TMi" name="DecksContainersBar.h" compile="0" resource="0"
+            file="Source/DecksContainersBar.h"/>
+      <FILE id="JuvvG1" name="DecksContainer.cpp" compile="1" resource="0"
+            file="Source/DecksContainer.cpp"/>
+      <FILE id="g9jdkA" name="DecksContainer.h" compile="0" resource="0"
+            file="Source/DecksContainer.h"/>
+      <FILE id="ceFenf" name="PlaylistController.cpp" compile="1" resource="0"
+            file="Source/PlaylistController.cpp"/>
+      <FILE id="ERErfD" name="PlaylistController.h" compile="0" resource="0"
+            file="Source/PlaylistController.h"/>
+      <FILE id="Xq17mm" name="DeckGUI.cpp" compile="1" resource="0" file="Source/DeckGUI.cpp"/>
+      <FILE id="qeM0Np" name="DeckGUI.h" compile="0" resource="0" file="Source/DeckGUI.h"/>
+      <FILE id="pDZ6Ko" name="AudioController.cpp" compile="1" resource="0"
+            file="Source/AudioController.cpp"/>
+      <FILE id="kzqLGE" name="AudioController.h" compile="0" resource="0"
+            file="Source/AudioController.h"/>
+      <FILE id="CAj6T8" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="jUrAS9" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="tP68di" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_USE_MP3AUDIOFORMAT="1"/>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="ProDJ"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="ProDJ"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../../../../home/blake/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="ProDJ"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="ProDJ"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../../../../home/blake/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="ProDJ"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="ProDJ"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../../home/blake/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../../../../home/blake/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
