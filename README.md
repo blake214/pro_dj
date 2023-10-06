@@ -1,4 +1,4 @@
-# pro_dj
+# Pro DJ
 In this 2nd-year university project, I harnessed the capabilities of the JUCE C++ library to create a versatile music player. At its core, this project focuses on delivering an immersive music playback experience with an emphasis on mixing and control.
 
 ## Highlights:
@@ -51,3 +51,5 @@ The application incorporates a playlist feature, allowing users to curate and ma
 For added convenience, the playlist includes a search box that allows users to search for tracks by typing characters, making track selection more efficient.
 
 This music player project exemplifies my commitment to delivering immersive and innovative audio solutions, combining the power of JUCE with a user-friendly interface to enhance the music listening and mixing experience
+
+**Checkout the video**: https://youtu.be/cTnu_qcimxM
